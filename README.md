@@ -33,5 +33,5 @@ Un contador que:
 
 1. Clona el repositorio
 ```bash
-git clone https://github.com/miguelbac/useReducer
+git clone https://github.com/miguelbac/useReducer.git
 cd useReducer
