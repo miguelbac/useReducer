@@ -1,12 +1,37 @@
-# React + Vite
+# 🧮 useReducer Counter en React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un ejemplo muy simple de cómo usar `useReducer` en React para gestionar un estado más complejo que con `useState`.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 ¿Qué hace?
 
-## Expanding the ESLint configuration
+Un contador que:
+- Suma y resta con botones
+- Lleva un contador de clics totales
+- Permite reiniciar el estado
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 ¿Por qué usar `useReducer`?
+
+- Permite manejar múltiples valores de estado en un solo lugar (`count` y `clicks`)
+- Organiza mejor el código cuando hay varios tipos de acciones
+- Escala mejor en apps reales que usan lógica más compleja
+
+---
+
+## 🛠️ Tecnologías usadas
+
+- React (Vite)
+- CSS moderno y sencillo
+- `useReducer` para manejar el estado
+
+---
+
+## ▶️ Cómo ejecutarlo
+
+1. Clona el repositorio
+```bash
+git clone https://github.com/tuusuario/nombre-del-repo
+cd nombre-del-repo
